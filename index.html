@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashmit Dahal | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-    <header>
-        <h1>My Portfolio</h1>
-        <p>Welcome to my personal website</p>
-    </header>
-
+    
     <nav>
+        <h1 id="logo">Ashmit</h1>
         <ul>
+            <li><a href="#about">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
+    <!-- HEADER -->
+    <header>
+        <img src="images/user.png" id="profilePic" alt="Profile Photo" />
+        <h1>Ashmit Dahal</h1>
+        <p>Software Engineer</p>
+    </header>
+
     <main>
 
+        
         <section id="about">
             <h2>About Me</h2>
-            <p>This is a short description about me.</p>
+            <p>
+                Myself Ashmit Dahal, a tech enthusiast who loves programming,
+                problem-solving, and building modern web applications. I am eager
+                to dive deeper into technologies and software development.
+            </p>
         </section>
 
+        
         <section id="projects">
             <h2>My Projects</h2>
-            <p>Here are some of my projects.</p>
+
+            <div class="project-card">
+                <img src="images/image.png" alt="Project Image">
+                <h3>CRM System</h3>
+                <p>A customer relationship management system which focuses on effective management of different types of customer leads and keeps the track of all their data.</p>
+            </div>
+
         </section>
 
+        
         <section id="contact">
             <h2>Contact Me</h2>
 
@@ -48,10 +66,16 @@
 
                 <button type="submit">Send</button>
             </form>
-
         </section>
 
     </main>
+
+    
+    <footer>
+        <p>© <span id="year">2025</span> Ashmit Dahal. All rights reserved.</p>
+    </footer>
+
+
 
 </body>
 </html>
